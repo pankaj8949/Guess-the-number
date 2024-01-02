@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+#userGuess {
+  margin-right: 10px;
+}
+
+#submitBtn {
+  background-color: lightgreen;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 10px;
+}
